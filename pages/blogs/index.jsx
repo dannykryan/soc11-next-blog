@@ -3,11 +3,6 @@ import blogData from "../../json/data.json";
 const BlogList = () => {
   return (
     <div>
-      <navbar>
-        <Link href="/">Home</Link> <br />
-        <Link href="/about">About Page</Link> <br />
-        <Link href="./blogs/">Blogs</Link>
-      </navbar>
       <div className="blogBoard">
       <h1 className="centerHeader">Blogs</h1>
       <h3>Have a browse through my blogposts.</h3>
@@ -17,8 +12,15 @@ const BlogList = () => {
             <Link href={`/blogs/${post.id}`}>
             <p className="previewHeader">{post.heading}</p>
               <div className="previewContainer">
-                <img className="blogThumb" src={post.imageUrl} alt="blog-image" />
-                <p className="previewText">{post.content}</p>
+                <div className="blogThumb" style={{
+      backgroundImage: `url(${post.imageUrl})`,
+      width: '100%',
+      height: '100%',
+    }} src={post.imageUrl} alt="blog-image" />
+                <div className="previewTextContainer">
+                  <p className="previewText">{post.content}</p>
+                  <p className="authorPreview">Written by: {post.author}</p>
+                </div>
               </div>
             </Link>
           </li>
