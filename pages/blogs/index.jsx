@@ -8,17 +8,23 @@ const BlogList = () => {
         <Link href="/about">About Page</Link> <br />
         <Link href="./blogs/">Blogs</Link>
       </navbar>
-      <h1>ALL THE BLOGS</h1>
-      <h2>Blog Posts:</h2>
-      <ul>
+      <div className="blogBoard">
+      <h1 className="centerHeader">Blogs</h1>
+      <h3>Have a browse through my blogposts.</h3>
+      <ul className="ul">
         {blogData.blogPosts.map((post) => (
-          <li key={post.id}>
+          <li className="blogListItem" key={post.id}>
             <Link href={`/blogs/${post.id}`}>
-              <p>{post.heading}</p>
+            <p className="previewHeader">{post.heading}</p>
+              <div className="previewContainer">
+                <img className="blogThumb" src={post.imageUrl} alt="blog-image" />
+                <p className="previewText">{post.content}</p>
+              </div>
             </Link>
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
 };
