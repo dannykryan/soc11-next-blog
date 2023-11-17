@@ -12,11 +12,14 @@ const BlogList = () => {
             <Link href={`/blogs/${post.id}`}>
             <p className="previewHeader">{post.heading}</p>
               <div className="previewContainer">
-                <div className="blogThumb" style={{
-      backgroundImage: `url(${post.imageUrl})`,
-      width: '100%',
-      height: '100%',
-    }} src={post.imageUrl} alt="blog-image" />
+              <div className="blogThumb" style={{
+    backgroundImage: `url(${post.imageUrl})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    width: '200px',
+    height: '200px',
+    paddingTop: '10px', // This maintains a 1:1 aspect ratio for a square container
+  }} />
                 <div className="previewTextContainer">
                   <p className="previewText">{post.content}</p>
                   <p className="authorPreview">Written by: {post.author}</p>
