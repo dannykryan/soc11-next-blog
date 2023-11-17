@@ -1,9 +1,16 @@
 import Link from 'next/link';
 import blogData from '../../json/data.json';
+import Link from 'next/link';
+import blogData from '../../json/data.json';
 
 const BlogList = () => {
   return (
     <div>
+    <navbar>
+        <Link href="/">Home</Link> <br />
+        <Link href="/about">About Page</Link> <br />
+        <Link href="./blogs/">Blogs</Link>
+    </navbar>
     <navbar>
         <Link href="/">Home</Link> <br />
         <Link href="/about">About Page</Link> <br />
