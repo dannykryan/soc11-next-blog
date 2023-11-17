@@ -91,3 +91,12 @@ Navbar {
   padding-bottom: 5px;
   font-weight: 500;
 }
+
+.profileContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.profileText {
+  padding-bottom: 50px;
+}
