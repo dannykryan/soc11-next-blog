@@ -9,12 +9,12 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <h1>Hi, I'm John Doe</h1>
+      <h1>Welcome to John Doe's Blog</h1>
       <div className="profileContainer">
         <div
           className="profileImage"
           style={{
-            backgroundImage: `url(https://images.unsplash.com/photo-1558730234-d8b2281b0d00?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGZhY2UlMjBibGFjayUyMGFuZCUyMHdoaXRlfGVufDB8fDB8fHww)`,
+            backgroundImage: `url(https://media.newyorker.com/photos/61e1f4b6d1968fc10283af4f/master/w_2560%2Cc_limit/Treisman-Krystal-TWIF.jpg)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             width: "200px",

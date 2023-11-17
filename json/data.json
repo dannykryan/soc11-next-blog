@@ -5,35 +5,35 @@
         "heading": "Introduction to Blogging",
         "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor metus ut turpis fermentum, vel ultrices neque tempus.",
         "author": "John Doe",
-        "imageUrl": "https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2022/06/How_To_Start_A_Blog_-_article_image.jpg"
+        "imageUrl": "https://www.hubspot.com/hubfs/GettyImages-915160652%20copy.jpg"
       },
       {
         "id": 2,
         "heading": "The Art of Writing",
         "content": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed euismod nisl vitae suscipit venenatis.",
         "author": "Jane Smith",
-        "imageUrl": "https://cdn.britannica.com/09/157609-050-54CC600B/Hand-with-pencil-writing-on-page.jpg"
+        "imageUrl": "https://media.newyorker.com/photos/61e1f4b6d1968fc10283af4f/master/w_2560%2Cc_limit/Treisman-Krystal-TWIF.jpg"
       },
       {
         "id": 3,
         "heading": "Web Development Tips",
         "content": "Fusce consequat justo ac tellus bibendum, vitae aliquam purus facilisis. Proin aliquet massa nec nisl fringilla, at ullamcorper nulla rhoncus.",
         "author": "Alex Johnson",
-        "imageUrl": "https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png"
+        "imageUrl": "https://cdn.impactmedia.co.uk/wp-content/uploads/2020/11/Header-Images-Matt-630x506.jpg"
       },
       {
         "id": 4,
         "heading": "Exploring Nature's Wonders",
         "content": "Curabitur euismod enim vel orci cursus, ac volutpat lectus malesuada. Duis id nulla eu arcu convallis euismod id vitae velit.",
         "author": "Emily Davis",
-        "imageUrl": "https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=600&quality=80"
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkWDB991hv8lttAauUIUU0cz5yo-HXYjvsiodYJdAYV_IL6lEtX-EFkJfKSjHBBGg4Fek&usqp=CAU"
       },
       {
         "id": 5,
         "heading": "Cooking Adventures",
         "content": "Suspendisse potenti. Quisque vitae felis vel mi commodo posuere vel ac velit. Ut eget justo nec metus efficitur imperdiet.",
         "author": "Michael Brown",
-        "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422.jpg"
+        "imageUrl": "https://www.shutterstock.com/image-photo/closeup-photo-baker-making-dough-260nw-1311162593.jpg"
       }
     ]
   }
