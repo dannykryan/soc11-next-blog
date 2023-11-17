@@ -1,14 +1,13 @@
-import Link from 'next/link';
-import blogData from '../../json/data.json';
-
+import Link from "next/link";
+import blogData from "../../json/data.json";
 const BlogList = () => {
   return (
     <div>
-    <navbar>
+      <navbar>
         <Link href="/">Home</Link> <br />
         <Link href="/about">About Page</Link> <br />
         <Link href="./blogs/">Blogs</Link>
-    </navbar>
+      </navbar>
       <h1>ALL THE BLOGS</h1>
       <h2>Blog Posts:</h2>
       <ul>
