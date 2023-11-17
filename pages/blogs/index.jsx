@@ -1,8 +1,14 @@
+import Link from "next/link";
+import blogData from "../../json/data.json";
 
 const BlogList = () => {
   return (
     <div>
-      <h1>ALL THE BLOGS</h1>
+      {blogData.blogPosts.map((post) => (
+        <Link key={post.id} href={`blogs/${post.id}`}>
+          <h1>{post.heading}</h1>
+        </Link>
+      ))}
     </div>
   );
 };
