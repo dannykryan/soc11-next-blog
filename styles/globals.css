@@ -7,6 +7,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 100vh;
+  background-color: rgb(247, 247, 245);
+  color: rgb(31, 31, 31);
+}
+
+.centerHeader {
+  margin: 20px;
 }
 
 img {
@@ -16,27 +22,29 @@ img {
 .ul {
   list-style-type: none;
   padding-left: 0;
+  margin: 0;
+  /* box-shadow: 0 0 5px rgb(180, 180, 179);
+  background-color: white; */
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: rgb(31, 31, 31);
 }
 
 a:hover {
-  text-decoration: underline;
-  color: black;
+  opacity: 65%;
 }
 
 .previewHeader {
   font-weight: 700;
+  font-size: 18px;
   margin-bottom: 0;
   margin-top: 0;
 }
 
 .blogListItem {
-  margin-left: 10px;
-  margin-right: 10px;
+  padding: 15px 15px 15px 15px;
 }
 
 .blogBoard h3, h1 {
@@ -45,49 +53,51 @@ a:hover {
 
 .blogBoard h1 {
   font-size: 46px;
-  margin-bottom: 10px;
 }
 
 .blogBoard h3 {
-  margin-top: 10px;
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 
 .blogThumb {
-  max-height:50px;
+  background-size: auto 100%;
+  background-position: center;
+  width: 100%;
+  max-width: 145px;
+  height: 120px;
+  box-shadow: 0 0 4px rgb(180, 179, 179);
 }
 
 .previewText {
   font-weight: 200;
   margin-bottom: 5px;
-  margin-top: 10px;
+  margin-block: 0;
+  margin-top: 8px;
 }
 
 .previewTextContainer {
-  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+
 }
 
 .authorPreview {
   margin-top: 0px;
+  margin-bottom: 20px;
   font-weight: 700;
   font-size: 12px;
 }
 
 .previewContainer {
   display: flex;
-  align-items: center;
-}
-
-.blogListItem {
-  border: 1px solid black;
-  margin-bottom: 10px;
-  padding: 10px;
 }
 
 Navbar {
   display: flex;
   justify-content: space-around;
-  border-bottom: 2px solid black;
+  border-bottom: 1.5px solid rgb(31, 31, 31);
   padding-bottom: 5px;
   font-weight: 500;
 }

@@ -8,7 +8,7 @@ const BlogPostComponent = ({ blogPost }) => {
     return <p>Blog post not found</p>;
   }
 
-  //if true, the component returns the JSX for rednering the blog post content.
+  //if true, the component returns the JSX for rendering the blog post content.
   return (
     <>
       <h1>{blogPost.heading}</h1>
