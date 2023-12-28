@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function AboutPage() {
   return (
     <>
-      <h1>Hi, I'm John Doe</h1>
+      <h1>Hi, I&apos;m John Doe</h1>
       <div className="profileContainer">
         <div
           className="profileImage"
