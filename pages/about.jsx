@@ -1,8 +1,8 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export default function AboutPage() {
-    return (
-        <>
+  return (
+    <>
       <h1>Hi, I'm John Doe</h1>
       <div className="profileContainer">
         <div
@@ -17,17 +17,38 @@ export default function AboutPage() {
           }}
         />
       </div>
-      <p className="profileText">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper
-        justo a justo consequat, in varius nisl consectetur. Proin ac metus
-        libero. Nullam vel tortor risus. Vivamus congue, justo ut varius
-        aliquet, turpis odio consectetur dolor, at posuere velit purus non orci.
-        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere
-        cubilia Curae; Vestibulum non ligula vitae ligula facilisis bibendum nec
-        vel tortor. Quisque auctor, sem non sodales tempus, justo massa vehicula
-        urna, non eleifend quam nisl non orci. Aliquam erat volutpat.
-        <br />
-      </p>
+      <div className="profileText">
+        <p>
+          Hey coding enthusiasts! I&apos;m John, a passionate developer, and the mind
+          behind this blog where I unravel the mysteries of code.
+        </p>
+        <p>
+          From the early days of &quot;Hello World&quot; to the intricate dance of
+          algorithms, I find joy in crafting elegant solutions to complex
+          problems.
+        </p>
+        <p>
+          Why this blog? I believe knowledge grows when shared. I aim to create
+          a space where developers of all levels can find inspiration, guidance,
+          and maybe even a bit of humor in the fascinating realm of coding.
+        </p>
+        <p>
+          Expect a diverse range of topics - from the latest programming
+          languages to my coding escapades. But it&apos;s not just about the code;
+          it&apos;s about the community, shared experiences, and collective knowledge
+          propelling us forward.
+        </p>
+        <p>
+          Join the conversation, ask questions, and share your insights. Let&apos;s
+          navigate the vast sea of binary together, embracing the highs and lows
+          that come with deciphering the language of machines.
+        </p>
+        <p>
+          Welcome to John&apos;s Coding Chronicles - your home for all things code!
+        </p>
+        <p>Happy coding!</p>
+        <p>John</p>
+      </div>
     </>
-    )
+  );
 }
