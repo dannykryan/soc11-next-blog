@@ -10,4 +10,4 @@ It was good to get to know how routing worked in Next.js and the skills I leaned
 
 ## The Future
 
-All of the blogs are being populated from a simple json file and if the project was to continue, it would be good to add full CRUD functionality to the application to make it usable.
+All of the blogs are being populated from a simple JSON file and if the project was to continue, it would be good to add full CRUD functionality to the application to make it usable.
