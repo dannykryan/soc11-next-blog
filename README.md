@@ -1,3 +1,5 @@
+![Next Blog Header](/public/assets/blog-site-preview.png)
+
 ## Overview 
 
 This simple blog site was made on week 11 of the 16-week software development bootcamp, the School of Code as my first experience with Next.js.
